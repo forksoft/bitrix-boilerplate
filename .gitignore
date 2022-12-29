@@ -5,3 +5,4 @@ public/bitrix
 *.bundle.js
 composer.lock
 package-lock.json
+.idea
