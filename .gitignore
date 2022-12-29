@@ -1,0 +1,7 @@
+vendor
+node_modules
+.env
+public/bitrix
+*.bundle.js
+composer.lock
+package-lock.json

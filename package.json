@@ -1,0 +1,26 @@
+{
+    "name": "banksite",
+    "version": "1.0.0",
+    "description": "banksite",
+    "scripts": {
+        "build": "cd ./public/local/js && bitrix build",
+        "lint:scripts": "eslint \"public/local/js/**/*.+(js|vue)\" ; exit 0"
+    },
+    "author": "",
+    "license": "ISC",
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "IE 11"
+    ],
+    "devDependencies": {
+        "eslint": "^8.30.0",
+        "@babel/eslint-parser": "^7.19.1",
+        "eslint-plugin-vue": "^9.8.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "babel-eslint": "^10.1.0",
+        "babel-plugin-syntax-dynamic-import": "^6.18.0",
+        "babel-preset-env": "^1.7.0"
+    }
+}
